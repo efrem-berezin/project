@@ -1,19 +1,6 @@
-/* Задание на урок:
-
-1) Первую часть задания повторить по уроку
-
-2) Создать функцию showMyDB, которая будет проверять свойство privat. Если стоит в позиции
-false - выводит в консоль главный объект программы
-
-3) Создать функцию writeYourGenres в которой пользователь будет 3 раза отвечать на вопрос 
-"Ваш любимый жанр под номером ${номер по порядку}". Каждый ответ записывается в массив данных
-genres
-
-P.S. Функции вызывать не обязательно*/
-
 "use strict";
 
-// Код возьмите из предыдущего домашнего задания
+// Код возьмите 
 
 
 let numberOfFilms;
@@ -92,5 +79,7 @@ function writeYourGenres () {
 	}
 }
 
-writeYourGenres();
-console.log(personalMovieDB);
+// writeYourGenres();
+// console.log(personalMovieDB);
+
+console.log(Object.keys(personalMovieDB).length);  //prints the number of elements that appear in the array
